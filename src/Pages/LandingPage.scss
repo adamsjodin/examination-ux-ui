@@ -1,0 +1,48 @@
+.landingPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/layered-bg2.svg);
+    
+
+    &--heading {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 300;
+    }
+    &--paragraph {
+        font-size: 2rem;
+        margin-bottom: 6rem;
+        font-weight: 300;
+
+    }
+    &--btn {
+        padding: 0.8rem 4rem;
+        font-weight: 400;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landingpage {
+        height: 100%;
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./src/images/layered-bg-vertical.svg);
+        
+        &--heading {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+    }
+  }

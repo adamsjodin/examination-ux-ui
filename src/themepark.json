@@ -1,0 +1,87 @@
+{
+    "attractions": [
+        {
+            "id": 1,
+            "img": "/src/images/attractions/ferris-wheel-s.jpg",
+            "name": "Ferris Wheel"
+        },
+        {
+            "id": 2,
+            "img": "/src/images/attractions/galactic-tornado-s.jpg",
+            "name": "Galactic Tornado"
+        },
+        {
+            "id": 3,
+            "img": "/src/images/attractions/hauntedhouse-s.jpg",
+            "name": "Haunted House"
+        },
+        {
+            "id": 4,
+            "img": "/src/images/attractions/inferno-rush2-s.jpg",
+            "name": "Inferno Rush"
+        },
+        {
+            "id": 5,
+            "img": "/src/images/attractions/rollercoaster1-s.jpg",
+            "name": "Roller Coaster"
+        },
+        {
+            "id": 6,
+            "img": "/src/images/attractions/sky-serpent-s.jpg",
+            "name": "Sky Serpent"
+        },
+        {
+            "id": 7,
+            "img": "/src/images/attractions/swan-s.jpg",
+            "name": "The Swan"
+        },
+        {
+            "id": 8,
+            "img": "/src/images/attractions/thunder-fury-s.jpg",
+            "name": "Thunder Fury"
+        }
+    ],
+    "events": [
+        {
+            "id": 9,
+            "img": "/src/images/events/concerts-s.jpg",
+            "name": "Concerts"
+        },
+        {
+            "id": 10,
+            "img": "/src/images/events/october-fest-s.jpg",
+            "name": "October Fest"
+        },
+        {
+            "id": 11,
+            "img": "/src/images/events/halloween-s.jpg",
+            "name": "Halloween"
+        },
+        {
+            "id": 12,
+            "img": "/src/images/events/pentathlon-s.jpg",
+            "name": "Pentathlon"
+        },
+        {
+            "id": 13,
+            "img": "/src/images/events/waterpark-s.jpg",
+            "name": "Water Park"
+        },
+        {
+            "id": 14,
+            "img": "/src/images/events/movies-s.jpg",
+            "name": "Movies"
+        },
+        {
+            "id": 15,
+            "img": "/src/images/events/food-s.jpg",
+            "name": "Food"
+        },
+        {
+            "id": 16,
+            "img": "/src/images/events/beverage-s.jpg",
+            "name": "Beverage"
+        }
+        
+    ]
+}

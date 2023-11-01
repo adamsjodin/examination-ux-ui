@@ -1,0 +1,15 @@
+.burger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &--menu {
+        z-index: 2;
+        width: rem;
+        height: 0.25rem;
+        background-color: black;
+        cursor: pointer;
+    }
+}
+
