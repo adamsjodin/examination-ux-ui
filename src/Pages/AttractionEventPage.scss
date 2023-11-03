@@ -2,50 +2,45 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url(./src/images/layered-bg2.svg);
-    
     &--content {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        
+        z-index: 0;
     }
-    
+
     &--heading {
         font-size: 2rem;
-        font-weight: 300;
         color: white;
+        margin: 0;
     }
-    
+
     &--card {
         display: flex;
         flex-direction: column;
         margin: 1rem;
         box-shadow: 0px 0px 10px 0px rgba(98, 98, 98, 0.8);
-
+        cursor: pointer;
     }
-    
+
     &--img {
-        width: 300px;
-        height: 300px;
+        width: 260px;
+        height: 260px;
         object-fit: cover;
         border: 1px solid rgb(255, 255, 255);
         border-bottom: none;
     }
-    
+
     &--paragraph {
         color: rgb(255, 255, 255);
         font-size: 2rem;
         font-weight: 300;
         border: 1px solid rgb(255, 255, 255);
         margin: 0;
-
     }
 }
 
@@ -55,8 +50,6 @@
         background-position: center;
         background-size: cover;
         height: 100%;
-        
         background-image: url(./src/images/layered-bg-vertical.svg);
-        
     }
-  }
+}

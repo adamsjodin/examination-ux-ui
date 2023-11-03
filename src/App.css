@@ -1,6 +1,15 @@
 #root {
   text-align: center;
   font-family: futura-pt, sans-serif;
+  font-display: swap;
+}
 
-
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(./images/layered-bg2.svg);
 }

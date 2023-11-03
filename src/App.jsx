@@ -3,9 +3,10 @@ import LandingPage from './Pages/LandingPage'
 import MainPage from './Pages/MainPage'
 import EventPage from './Pages/EventPage';
 import AttractionPage from './Pages/AttractionsPage';
+import FerrisWheelPage from './Pages/FerrisWheelPage';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import {  AnimatePresence } from 'framer-motion'
+import { AnimatePresence } from 'framer-motion'
 
 
 function App() {
@@ -32,14 +33,15 @@ function App() {
 
   return (
     <div className="App">
-        <AnimatePresence>
-            <Routes location={location} key={location.key}>
-              <Route path='/' element={<LandingPage />} />
-              <Route path='/main' element={<MainPage />} />
-              <Route path='/events' element={<EventPage events={getEvents} />} />
-              <Route path='/attractions' element={<AttractionPage attractions={getAttractions} />} />
-            </Routes>
-        </AnimatePresence>
+      <AnimatePresence>
+        <Routes location={location} key={location.key}>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/main' element={<MainPage />} />
+          <Route path='/events' element={<EventPage events={getEvents} />} />
+          <Route path='/attractions' element={<AttractionPage attractions={getAttractions} />} />
+          <Route path='/attractions/:id' element={<FerrisWheelPage />} />
+        </Routes>
+      </AnimatePresence>
     </div>
   )
 }

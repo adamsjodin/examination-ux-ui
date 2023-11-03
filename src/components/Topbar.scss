@@ -1,12 +1,14 @@
 .topbar {
     display: flex;
     margin: 0.5rem;
+
     &--nav {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     &--heading {
         font-weight: 300;
         cursor: pointer;

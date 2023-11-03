@@ -22,23 +22,13 @@
         },
         {
             "id": 5,
-            "img": "/src/images/attractions/rollercoaster1-s.jpg",
-            "name": "Roller Coaster"
+            "img": "/src/images/attractions/thunder-fury-s.jpg",
+            "name": "Thunder Fury"
         },
         {
             "id": 6,
             "img": "/src/images/attractions/sky-serpent-s.jpg",
             "name": "Sky Serpent"
-        },
-        {
-            "id": 7,
-            "img": "/src/images/attractions/swan-s.jpg",
-            "name": "The Swan"
-        },
-        {
-            "id": 8,
-            "img": "/src/images/attractions/thunder-fury-s.jpg",
-            "name": "Thunder Fury"
         }
     ],
     "events": [
@@ -71,17 +61,6 @@
             "id": 14,
             "img": "/src/images/events/movies-s.jpg",
             "name": "Movies"
-        },
-        {
-            "id": 15,
-            "img": "/src/images/events/food-s.jpg",
-            "name": "Food"
-        },
-        {
-            "id": 16,
-            "img": "/src/images/events/beverage-s.jpg",
-            "name": "Beverage"
         }
-        
     ]
 }

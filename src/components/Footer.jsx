@@ -10,9 +10,9 @@ function Footer() {
     return (
         <footer className='footer'>
             <ul className='footer--list'>
-                <motion.li whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/')} >Home</motion.li>
-                <motion.li whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/events')} >Events</motion.li>
-                <motion.li whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/attractions')} >Attractions</motion.li>
+                <motion.li whileTap={{ scale: 0.8 }} whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/')} >Home</motion.li>
+                <motion.li whileTap={{ scale: 0.8 }} whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/events')} >Events</motion.li>
+                <motion.li whileTap={{ scale: 0.8 }} whileHover={{ color: 'rgba(124, 108, 117, 0.96)', scale: 1.3, originX: 0 }} onClick={() => navigate('/attractions')} >Attractions</motion.li>
                 <li>Subscribtion</li>
             </ul>
             <figure className='footer--iconsContainer'>
@@ -26,7 +26,7 @@ function Footer() {
                         ase: 'easeInOut'
                     }}
                     className='footer--icons'
-                    src="./src/icons/facebook.svg"
+                    src="/src/icons/facebook.svg"
                     alt="facebook" />
                 <motion.img
                     whileHover={{
@@ -38,7 +38,7 @@ function Footer() {
                         ease: 'easeInOut'
                     }}
                     className='footer--icons'
-                    src="./src/icons/instagram.svg"
+                    src="/src/icons/instagram.svg"
                     alt="instagram" />
                 <motion.img
                     whileHover={{
@@ -49,9 +49,9 @@ function Footer() {
                         duration: 1,
                         ease: 'easeInOut'
                     }}
-                    exit={{  }}
+                    exit={{}}
                     className='footer--icons'
-                    src="./src/icons/twitter.svg"
+                    src="/src/icons/twitter.svg"
                     alt="twitter" />
                 <motion.img
                     whileHover={{
@@ -63,7 +63,7 @@ function Footer() {
                         ease: 'easeInOut'
                     }}
                     className='footer--icons'
-                    src="./src/icons/linkedin.svg"
+                    src="/src/icons/linkedin.svg"
                     alt="linkedin" />
             </figure>
             <ul className='footer--list left'>
